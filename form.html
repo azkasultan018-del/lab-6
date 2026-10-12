@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>form</title>
+<style>
+h1
+{
+  color:red;
+  bacground-color:yellow;
+
+}
+important
+{
+  color:blue;
+  background-color:gray;
+
+}
+bluetag
+{
+ color:lightgray;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<form action="/action_page.php">
+<label for="fname">Name:</label>
+<input type="text" id="fname" placeholder="write your name:"  name="fname">
+
+</form>
+
+
+<form action="/action_page.php">
+<label for="fname">;First name:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Last name:</labe><br>
+<input type="text" id="lname" name="lname" value="Doe"><br><br>
+<input type="submit" value="Submit"><br>
+<input type="password" placeholder="password">
+<input type="time" placeholder="time"><br>
+<input type="email" placeholder="email"><br>
+<input type="date"><br>
+<input type="number" min=1 max=50><br>
+<input type="checkbox">Male<br>
+<input type="checkbox">Female<br>
+<input type="radio" name="radioselection">Male<br>
+<input type="radio" name="radioselection">Female<br>
+</form>
+
+
+<form action="/action_page.php">
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<input type="submit">
+</form>
+
+
+<h1 style="color:red; background-color:yellow;">This is my first heding</h1>
+
+<h1 class="important">This is my second heding</h1>
+
+
+<p> This is my <span class="bluetag">key</span></p>
+</body>
+
+
+
+
+
+
+</html>
